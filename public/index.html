@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Capstone App</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .hero {
+      text-align: center;
+      padding: 4rem 1rem;
+    }
+
+    .hero__title {
+      font-size: 2.25rem;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      margin: 0 0 0.75rem;
+    }
+
+    .hero__text {
+      color: var(--color-text-muted);
+      font-size: 1.125rem;
+      max-width: 480px;
+      margin: 0 auto 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header class="app-header">
+    <div class="app-header__inner">
+      <a href="index.html" class="app-header__brand">Capstone App</a>
+      <nav class="app-header__nav" aria-label="Main navigation">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="settings.html">Settings</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page hero">
+    <h1 class="hero__title">Welcome to Capstone App</h1>
+    <p class="hero__text">Manage your account preferences, profile, and notifications from the settings page.</p>
+    <a href="settings.html" class="btn btn--primary">Go to Settings</a>
+  </main>
+</body>
+</html>
